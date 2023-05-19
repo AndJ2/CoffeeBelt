@@ -1,0 +1,64 @@
+.container{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid black;*/
+    padding: 30px;
+}
+
+#img1 {
+    width: 280px;
+    margin-left: 120px;
+}
+#title{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+#eng{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+.nav{
+    font-size: 15px;
+    color: black;
+
+
+}
+#nav_title{
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: black;
+}
+#nav_it {
+    margin-left: 1100px;
+}
+.myHr{
+    width: 400px;
+    margin-left: 130px;
+    color: black;
+}
+#ms{
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 130px;
+}
+
+#size {
+    margin-left: 185px;
+    width: 70px;
+    font-size: 15px;
+
+}
+
+#bak{
+    width: 400px;
+    height: 40px;
+    margin-left: 330px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: bold;
+}

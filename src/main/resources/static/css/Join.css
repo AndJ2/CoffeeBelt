@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid black;*/
+    padding: 30px;
+}
+#title {
+    margin-left: 65px;
+}
+
+#id {
+    margin-left: 70px;
+}
+#name {
+    margin-left: 70px;
+}
+#phone {
+    margin-left: 70px;
+}
+
+#txt_id{
+    margin-left: 70px;
+}
+
+#txt_name {
+    margin-left: 70px;
+}
+#txt_pho{
+    margin-left: 70px;
+}
+
+#join {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+}
+
+#cancel {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+}

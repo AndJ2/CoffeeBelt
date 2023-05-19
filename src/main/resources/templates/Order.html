@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>장바구니</title>
+
+  <style>
+    #tb {
+      transform: translate(70%, 100%);
+    }
+    #total{
+      transform: translate(61%, 550%);
+    }
+    #back {
+      transform: translate(400%, 350%);
+      width: 150px;
+      height: 35px;
+    }
+
+    #ob{
+      transform: translate(400%, 350%);
+      width: 150px;
+      height: 35px;
+    }
+  </style>
+  <script>
+    function btn(){
+      alert('주문이 완료되었습니다.');
+      window.location.href = '/mainc'
+    }
+  </script>
+</head>
+
+<body>
+<table class="sub_news" border="1" cellspacing="0" style="text-align: center;" id="tb">
+  <caption> 장바구니 </caption>
+  <colgroup>
+    <col width="200">
+    <col width="100">
+    <col width="100">
+    <col width="150">
+    <col width="100">
+  </colgroup>
+  <thead>
+  <tr>
+    <th scope="col"> 주문 음료 </th>
+    <th scope="col"> 수량 </th>
+    <th scope="col"> 가격 </th>
+    <th scope="col"> 담은 날짜 </th>
+    <th scope="col"> 삭제</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td class="title"> 아이스 아메리카노</td>
+    <td class="num"> 1</td>
+    <td class="price" > 3,000</td>
+    <td class="date" > 2022.11.29</td>
+    <td class="delete" ><button> 삭제 </button></td>
+  </tr>
+  <tr>
+    <td class="title"> 복숭아 아이스티</td>
+    <td class="num"> 1</td>
+    <td class="price" > 3,000</td>
+    <td class="date" > 2022.11.29</td>
+    <td class="delete" ><button> 삭제 </button></td>
+  </tr>
+  </tbody>
+</table>
+<div id="total">Total : 가격</div>
+<div class="row">
+  <div class="col">
+    <button id="back" onclick="location.href='/mainc'">돌아가기</button>
+    <button id="ob" onclick="javascript:btn()">주문하기</button>
+  </div>
+</div>
+</body>
+</html>

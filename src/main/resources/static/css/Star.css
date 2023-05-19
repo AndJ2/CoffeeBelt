@@ -1,0 +1,94 @@
+.container{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    /*border: 1px solid black;*/
+    padding: 30px;
+}
+
+#img1 {
+    width: 280px;
+    margin-left: 120px;
+}
+#title{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+#eng{
+   font-size: 15px;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.nav{
+    font-size: 15px;
+    color: black;
+
+
+}
+#nav_title{
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: black;
+}
+#nav_it {
+    margin-left: 1100px;
+}
+.myHr{
+    width: 400px;
+    margin-left: 130px;
+    color: black;
+}
+#ms{
+    font-size: 15px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+/*별점*/
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    justify-content: space-around;
+    padding: 0 0.2em;
+    text-align: center;
+    width: 5em;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2.3px;
+    -webkit-text-stroke-color: #2b2a29;
+    cursor: pointer;
+}
+
+.star-rating :checked ~ label {
+    -webkit-text-fill-color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    -webkit-text-fill-color: #fff58c;
+}
+
+.star {
+
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+#bak{
+    width: 400px;
+    height: 40px;
+    margin-left: 330px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: bold;
+}

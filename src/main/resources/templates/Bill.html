@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>영수증</title>
+  <style>
+    /* css area */
+    body, h1, h2, dl, dd, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* common area*/
+    .info div {
+      display: flex;
+      margin: 10px 0;
+    }
+
+    .info dt {
+      width: 30%;
+    }
+
+    .info dt:after {
+      content: ' :';
+    }
+
+    .info dd {
+      width: 70%;
+      text-align: right;
+    }
+
+    .price:before {
+      content: '$';
+    }
+
+    /* design area */
+    body {
+      background: #ccc;
+      color: #555;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+    }
+
+    .wrap {
+      background-color: #f4f4f4;
+      width: 700px;
+      padding: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0px 2px 15px rgba(0,0,0,0.2);
+    }
+
+    header {
+      margin: 20px 0;
+    }
+
+    h1 {
+      text-align: center;
+      border-bottom: dashed 4px #666;
+      padding-bottom: 30px;
+      font-size: 4vw;
+    }
+
+    main {
+      border-top: dotted 4px #aaa;
+      border-bottom: dotted 4px #aaa;
+      padding: 20px 0;
+    }
+
+    main table col:first-child {
+      width: 50%;
+    }
+    main table col:nth-child(2) {
+      width: 10%;
+    }
+    main table col:nth-child(3) {
+      width: 20%;
+    }
+    main table col:last-child {
+      width: 20%;
+    }
+
+    main table th {
+      text-align: right;
+    }
+    main table th:first-child {
+      text-align: left;
+      text-indent: -3px;
+    }
+
+    main table td {
+      text-align: right;
+      padding: 10px 0;
+    }
+    main table td:first-child {
+      text-align: left;
+    }
+    main table td:nth-child(2) {
+      text-align: center;
+    }
+
+    footer .discount {
+      margin: 20px 0;
+    }
+
+    footer .total {
+      border-top: dashed 4px #666;
+      border-bottom: dashed 4px #666;
+      padding: 20px 0;
+    }
+
+    footer .total h2 {
+      font-size: 3vw;
+    }
+
+    footer .total dt {
+      width: 50%;
+      text-align: right;
+      margin-right: 20px;
+    }
+    footer .total dt:after {
+      content: '';
+    }
+    footer .total dd {
+      width: 50%;
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    footer .greeting {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The Bills</h1>
+  <header>
+    <dl class="info">
+      <div>
+        <dt>Store</dt>
+        <dd>Shop Address</dd>
+      </div>
+      <div>
+        <dt>Date</dt>
+        <dd>MM / DD / YYYY</dd>
+      </div>
+      <div>
+        <dt>Manager</dt>
+        <dd>Your Name</dd>
+      </div>
+    </dl>
+  </header>
+  <main>
+    <table>
+      <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <tr>
+        <th>Description</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>Coffee</td>
+        <td>1</td>
+        <td><span class="price">6.5</span></td>
+        <td><span class="price">6.5</span></td>
+      </tr>
+      <tr>
+        <td>Black Coffee</td>
+        <td>1</td>
+        <td><span class="price">4.55</span></td>
+        <td><span class="price">4.55</span></td>
+      </tr>
+      <tr>
+        <td>Ice Tea</td>
+        <td>2</td>
+        <td><span class="price">2.25</span></td>
+        <td><span class="price">2.25</span></td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <dl class="info">
+      <div class="discount">
+        <dt>Discount</dt>
+        <dd><span class="price">00.00</span></dd>
+      </div>
+      <div class="total">
+        <dt>
+          <h2>TOTAL</h2>
+        </dt>
+        <dd>
+          <h2><span class="price">15.55</span></h2>
+        </dd>
+      </div>
+    </dl>
+    <p class="greeting">Thank You For Shopping!</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+.nav{
+    font-size: 15px;
+    color: black;
+}
+.h2{
+    color: black;
+    height: 70px;
+}
+#title{
+    font-size: 5px;
+}
+
+#nav_title{
+
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: black;
+}
+#nav_it {
+    margin-left: 1100px;
+}
+
+.container{
+    width: 1200px;
+    height: 1200px;
+    position: absolute;
+    top: 90%;
+    left: 54%;
+    transform: translate(-50%, -45%);
+    /*border: 1px solid black;*/
+    padding: 30px;
+}
+
+.container2{
+    width: 900px;
+    height: 100px;
+    top: 20%;
+    left: 48%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid black;*/
+    padding: 20px;
+}
+#nav_it2{
+    margin-left: -100px;
+}
+#nav_top{
+    margin-top: -30px;
+}
+
+.img1{
+    width: 250px;
+}
+.myimg {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 250px;
+    /*float: left;*/
+    /*transform: translateX(120%)*/
+
+}
+
+.ice {
+    font-size: 15px;
+    margin-left: -200px;
+    margin-top: 10px;
+    transform: translateX(8%);
+}
+
+#ice2 {
+    font-size: 15px;
+    margin-top: -25px;
+    transform: translateX(28%);
+}
+#ice3 {
+    font-size: 15px;
+    margin-top: -22px;
+    transform: translateX(48%);
+}
+#ice4{
+    font-size: 15px;
+    margin-top: -27px;
+    transform: translateX(69%);
+}
+#ice5 {
+    font-size: 15px;
+    margin-top: -3px;
+    transform: translateX(4%);
+
+}
+
+#ice6 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(26%);
+
+}
+#ice7 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(48%);
+}
+#ice8{
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(68%);
+}
+#ice9 {
+    font-size: 15px;
+    margin-top: -3px;
+    transform: translateX(5%);
+}
+
+#ice10 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(26%);
+}
+#ice11 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(47%);
+}
+#ice12 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(67%);
+}
+.Mice {
+    font-size: 15px;
+    margin-left: -220px;
+    margin-top: -3px;
+    transform: translateX(9%);
+}
+
+#Mice2 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(30%);
+}
+#Mice3 {
+    font-size: 15px;
+    margin-top: -23px;
+    transform: translateX(50%);
+}
+#Mice4{
+    font-size: 15px;
+    margin-top: -27px;
+    transform: translateX(71%);
+}
+#Mice5 {
+    font-size: 15px;
+    margin-top: -3px;
+    transform: translateX(7%);
+
+}
+
+#Mice6 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(28%);
+
+}
+#Mice7 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(50%);
+}
+#Mice8{
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(72%);
+}
+#Mice9 {
+    font-size: 15px;
+    margin-top: -3px;
+    transform: translateX(8%);
+}
+
+#Mice10 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(29%);
+}
+#Mice11 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(49%);
+}
+#Mice12 {
+    font-size: 15px;
+    margin-top: -24px;
+    transform: translateX(71%);
+}
+
+#search{
+    height: 65px;
+}
+#search1{
+    height: 65px;
+    font-size: 15px;
+}
+#search2{
+    width: 90px;
+    font-size: 15px;
+}
+
+#bak {
+    width: 120px;
+    height: 40px;
+    margin-left: 220px;
+    font-size: 15px;
+}
+.star {
+    font-size: 15px;
+    margin-left: -220px;
+    transform: translateX(53%);
+}
+
+.star2 {
+    font-size: 15px;
+    margin-top: -21px;
+    margin-left: -220px;
+    transform: translateX(12%);
+}

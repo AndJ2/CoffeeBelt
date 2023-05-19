@@ -1,0 +1,103 @@
+.nav{
+    font-size: 15px;
+    color: black;
+
+
+}
+.h2{
+    color: black;
+    height: 70px;
+}
+#title{
+    font-size: 5px;
+}
+
+#nav_title{
+
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: black;
+}
+#nav_it {
+    margin-left: 1100px;
+}
+
+.container{
+    /*width: 1200px;*/
+    height: 1200px;
+    position: absolute;
+    top: 90%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid black;*/
+    padding: 30px;
+}
+
+.container2{
+    width: 900px;
+    height: 100px;
+    top: 20%;
+    left: 48%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid black;*/
+    padding: 20px;
+}
+#nav_it2{
+    margin-left: -100px;
+}
+#nav_top{
+    margin-top: -30px;
+}
+
+#img1{
+    width: 250px;
+}
+.myimg {
+    margin-top: 5px;
+    margin-left:10px;
+    /*transform: translateX(120%)*/
+
+}
+
+#ctitle {
+    font-size: 15px;
+    margin-top: 5px;
+    transform: translateX(7%);
+}
+
+#cktitle2 {
+    font-size: 15px;
+    margin-top: -27px;
+    transform: translateX(28%);
+}
+#cktitle3 {
+    font-size: 15px;
+    margin-top: -25px;
+    transform: translateX(48%);
+}
+#cktitle4{
+    font-size: 15px;
+    margin-top: -27px;
+    transform: translateX(70%);
+}
+
+#search{
+    height: 65px;
+
+}
+#search2{
+    width: 90px;
+    font-size: 15px;
+}
+
+#bak {
+    width: 120px;
+    height: 40px;
+    margin-left: 220px;
+    font-size: 15px;
+}
+/*.myHr{*/
+/*    margin-top: -34px;*/
+/*    height: 30px;*/
+/*    color: black;*/

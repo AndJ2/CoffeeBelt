@@ -1,0 +1,24 @@
+#nav_title{
+
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: black;
+}
+#nav_it {
+    margin-left: 1100px;
+}
+#nav_it2{
+    margin-left: -100px;
+}
+#nav_top{
+    margin-top: -30px;
+}
+#tb {
+    transform: translate(60%, 60%);
+}
+#my {
+    transform: translate(47%, -310%);
+}
+#total {
+    transform: translate(60%, 200%);
+}

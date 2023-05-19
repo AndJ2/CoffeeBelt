@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Join</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/css/Join.css">
+</head>
+<body>
+<form th:action="@{/join}" th:object="${member}" method="post">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 id="title">회원가입</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="col">
+                <h3 id="txt_id">ID</h3>
+            </div>
+            <div class="col">
+                <input type="text" id="id" th:field="*{u_id}">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h3 id="txt_name">Name</h3>
+        </div>
+        <div class="col">
+            <input type="text" id="name" th:field="*{u_name}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h3 id="txt_pho">Phone</h3>
+        </div>
+        <div class="col">
+            o1o - <input type="number" id="phone1" th:field="*{phone1}"> - <input type="number" id="phone2" th:field="*{phone2}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button type="submit" id="join">회원가입</button>
+            <button type="button" id="cancel" onclick="location.href='/'">취소</button>
+        </div>
+    </div>
+</div>
+</form>
+</body>
+</html>

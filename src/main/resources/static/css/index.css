@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid black;*/
+    padding: 30px;
+}
+#title {
+    margin-left: 160px;
+}
+.my_img {
+    width: 100px;
+}
+
+#img1{
+    margin-left: 170px;
+}
+
+#u_id {
+    margin-left: 150px;
+}
+#phone {
+    margin-left: 150px;
+}
+
+#login {
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 160px;
+    height: 35px;
+}
+#join {
+    margin-top: 20px;
+    margin-left: 160px;
+    width: 150px;
+    height: 35px;
+}
+
+#txt_id{
+    margin-left: 150px;
+}
+
+#txt_pho{
+    margin-left: 150px;
+}
