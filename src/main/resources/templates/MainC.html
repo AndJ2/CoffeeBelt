@@ -41,27 +41,17 @@
 </div>
 
 <div class="container">
-<div class="row">
-  <div class="col-md-4">
-<!--    <div class="card card-outline">-->
-<!--      <div class="card-body">-->
-        <!-- main -->
-        <div th:each="menu : ${menus}">
-          <a th:href="@{/orderdetail(m_name=${menu.m_name}, img=${menu.img})}">
-            <img class="img-fluid myimg" th:src="@{'/images/' + ${menu.img}}" alt="Product picture">
-          </a>
-          <p class="text-dark text-center ice" th:text="${menu.m_name}"></p>
-          <p class="text-dark text-center Mice" th:text="${menu.price}"></p>
-          <div class="star">별점 : </div> <p class="text-dark text-center star2" th:text="${menu.star}"></p>
-        </div>
-
-
-
-<!--        </ul>-->
-<!--      </div>-->
-<!--    </div>-->
+  <div class="row">
+    <div class="col-md-4" th:each="menu : ${menus}">
+      <a th:href="@{/orderdetail(m_name=${menu.m_name}, img=${menu.img})}">
+        <img class="img-fluid myimg" th:src="@{'/images/' + ${menu.img}}" alt="Product picture">
+      </a>
+      <p class="text-dark text-center ice" th:text="${menu.m_name}"></p>
+      <p class="text-dark text-center Mice" th:text="${menu.price}"></p>
+      <div class="star">별점 : </div> <p class="text-dark text-center star2" th:text="${menu.star}"></p>
+    </div>
   </div>
 </div>
-</div>
+
 </body>
 </html>
